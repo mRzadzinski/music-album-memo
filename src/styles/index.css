@@ -1,0 +1,9 @@
+body {
+	width: 100vw;
+	min-width: 1750px;
+	height: 100vh;
+
+	margin: 0;
+
+	background-color: #161b22;
+}
