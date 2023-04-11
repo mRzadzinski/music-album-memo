@@ -1,9 +1,12 @@
+import '../styles/Card.scss'
+
 const Card = (props) => {
+    const { img, title, artist } = props;
     return (
         <div className="Card">
-            <div className="cover"></div>
-            <div className="album-title"></div>
-            <div className="artist"></div>
+            <img className='album-cover' src={img} alt="" />
+            <div className="album-title">{title}</div>
+            <div className="artist">{artist}</div>
         </div>
     );
 }

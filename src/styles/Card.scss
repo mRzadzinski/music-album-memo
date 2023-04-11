@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.Card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 180px;
+	height: 270px;
+	padding-top: 4px;
+
+	border-radius: 10px;
+
+	text-align: left;
+    font-family: 'DM Sans', sans-serif;
+
+	background-color: #1f1f1f;
+
+    cursor: pointer;
+    &:hover {
+        background-color: #272727;
+    }
+}
+
+.album-cover {
+	align-self: center;
+
+	width: 150px;
+	height: 150px;
+
+	border-radius: 5px;
+}
+
+.album-title,
+.artist {
+    padding: 0 16px 0 16px;
+}
+
+.album-title {
+
+    
+    height: 50px;
+    padding-top: 13px;
+
+    font-size: 17px;
+    color: rgb(183, 183, 183);
+}
+
+.artist {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+
+    height: 35px;
+
+    vertical-align: bottom;
+    font-size: 14px;
+    color: rgb(123, 123, 123);
+}
+

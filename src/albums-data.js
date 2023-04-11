@@ -18,7 +18,7 @@ const albums = [
 	},
 	{
 		img: images['anyway-the-wind-blows.jpeg'],
-		title: 'Anyway the Wind Blows: The Anthology',
+		title: 'The Anthology',
 		artist: 'J.J. Cale',
 	},
 	{
