@@ -8,12 +8,15 @@ const Gameplay = (props) => {
 
 	return (
 		<div className='Gameplay'>
-			<div className='score'>Score 0/12</div>
+			<div className='score'>
+				<span class='material-symbols-outlined' id='info-icon'>info</span>&nbsp;Score 0/12
+			</div>
 
 			<div className='albums-game-container'>
 				<div className='albums-game'>
 					{albumsArray.map((album, index) => (
 						<Card
+							key={index}
 							img={albums[index].img}
 							title={albums[index].title}
 							artist={albums[index].artist}

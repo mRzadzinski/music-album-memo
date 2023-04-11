@@ -4,17 +4,6 @@ import Card from './Card';
 
 const AllAlbums = (props) => {
 	return (
-		// <div className="AllAlbums">
-		//     <div className="display-container">
-		//     {albums.map((album, index) => (
-		// 				<Card
-		// 					img={albums[index].img}
-		// 					title={albums[index].title}
-		// 					artist={albums[index].artist}
-		// 				/>
-		// 			))}
-		//     </div>
-		// </div>
 
 		<div className='AllAlbums'>
 			<div className='score'></div>
@@ -22,6 +11,7 @@ const AllAlbums = (props) => {
 				<div className='albums-game'>
 					{albums.map((album, index) => (
 						<Card
+							key={index}
 							img={albums[index].img}
 							title={albums[index].title}
 							artist={albums[index].artist}

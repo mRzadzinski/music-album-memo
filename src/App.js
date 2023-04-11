@@ -4,7 +4,7 @@ import AllAlbums from './Components/AllAlbums';
 import './styles/App.scss';
 
 function App() {
-	const [status, setStatus] = useState('display');
+	const [status, setStatus] = useState('game');
 
 	function showAllAbums() {
 		setStatus('display');
