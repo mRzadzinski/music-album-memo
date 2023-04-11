@@ -45,7 +45,7 @@
 	grid-area: albums;
 
 	display: grid;
-	grid-template: repeat(2, 274px) / repeat(6, 180px);
+	grid-template: 274px / repeat(6, 180px);
 	gap: 20px;
 
 	text-align: center;
