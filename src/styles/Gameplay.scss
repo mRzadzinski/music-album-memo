@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
 .Gameplay {
 	flex-grow: 1;
 
 	display: grid;
-	grid-template-rows: auto 1fr 100px;
+	grid-template-rows: auto 1fr 160px;
 	grid-template-areas:
 		'score'
 		'albums'
@@ -12,7 +13,7 @@
 }
 
 .score,
-.albums-game-container,
+.albums-game,
 .restart-container {
 	display: flex;
 	justify-content: center;
@@ -26,10 +27,26 @@
 
 	font-size: 27px;
 	margin-bottom: 20px;
+
+	color: rgb(183, 183, 183);
 }
 
 .albums-game-container {
+	align-self: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+}
+
+.albums-game {
 	grid-area: albums;
+
+	display: grid;
+	grid-template: repeat(2, 274px) / repeat(6, 180px);
+	gap: 20px;
 
 	text-align: center;
 
@@ -38,7 +55,7 @@
 }
 
 .restart-container {
-	margin-bottom: 20px;
+	padding-top: 5px;
 }
 
 .btn-restart {
@@ -46,14 +63,16 @@
 
 	width: 125px;
 	height: 40px;
-
+	
 	border: none;
 	border-radius: 30px;
 
 	background-color: #357e31;
-	color: white;
+	
 	font-size: 18px;
-	font-family: inherit;
+	font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+	color: inherit;
 
 	cursor: pointer;
 

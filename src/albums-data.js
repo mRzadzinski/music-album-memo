@@ -12,14 +12,14 @@ const images = importAllImages(
 
 const albums = [
 	{
+		img: images['deru-1979.jpeg'],
+		title: '1979',
+		artist: 'Deru',
+	},
+	{
 		img: images['a-seat-at-the-table.jpeg'],
 		title: 'A Seat at the Table',
 		artist: 'Solange',
-	},
-	{
-		img: images['anyway-the-wind-blows.jpeg'],
-		title: 'The Anthology',
-		artist: 'J.J. Cale',
 	},
 	{
 		img: images['at-last.jpeg'],
@@ -46,16 +46,7 @@ const albums = [
 		title: 'Buena Vista Social Club',
 		artist: 'Buena Vista Social Club',
 	},
-	{
-		img: images['darkside-live.jpeg'],
-		title: 'PSYCHIC LIVE JULY 17 2014',
-		artist: 'DARKSIDE',
-	},
-	{
-		img: images['deru-1979.jpeg'],
-		title: '1979',
-		artist: 'Deru',
-	},
+
 	{
 		img: images['dire-straits.jpeg'],
 		title: 'Dire Straits',
@@ -127,9 +118,14 @@ const albums = [
 		artist: 'Orchestra Baobab',
 	},
 	{
+		img: images['darkside-live.jpeg'],
+		title: 'PSYCHIC LIVE JULY 17 2014',
+		artist: 'DARKSIDE',
+	},
+	{
 		img: images['psycho-tropical.jpg'],
-		title: 'La Femme',
-		artist: 'Psycho Tropical Berlin',
+		title: 'Psycho Tropical Berlin',
+		artist: 'La Femme',
 	},
 	{
 		img: images['road-to-knowhere.jpeg'],
@@ -145,6 +141,11 @@ const albums = [
 		img: images['sputnik-korolev.jpeg'],
 		title: 'Sputnik / Korolev',
 		artist: 'Public Service Broadcasting',
+	},
+	{
+		img: images['anyway-the-wind-blows.jpeg'],
+		title: 'The Anthology',
+		artist: 'J.J. Cale',
 	},
 	{
 		img: images['the-doors.jpg'],
