@@ -1,16 +1,16 @@
-import './styles/App.css';
+import Gameplay from './Components/Gameplay';
+import './styles/App.scss';
 
 function App() {
 	return (
 		<div className='App'>
 			<div className='header'>
-				<div className='all-albums'>All &nbsp;Albums</div>
+				<div className='all-albums'>All Albums</div>
 				<div className='title'>Music &nbsp; Album &nbsp; Memo</div>
-        <div className='empty'></div>
+				<div className='empty'></div>
 			</div>
-      <div className="gameplay">
-        <div className="score">Score 0/10</div>
-      </div>
+
+				<Gameplay />
 		</div>
 	);
 }

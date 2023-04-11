@@ -1,0 +1,63 @@
+.Gameplay {
+	flex-grow: 1;
+
+	display: grid;
+	grid-template-rows: auto 1fr 160px;
+	grid-template-areas:
+		'score'
+		'albums'
+		'shuffle';
+
+	margin-top: 30px;
+}
+
+.score,
+.albums-game-container,
+.restart-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.score {
+	grid-area: score;
+
+	height: 50px;
+
+	font-size: 27px;
+	margin-bottom: 20px;
+}
+
+.albums-game-container {
+	grid-area: albums;
+
+	text-align: center;
+
+	width: 100%;
+	height: 100%;
+}
+
+.restart-container {
+	margin-bottom: 20px;
+}
+
+.btn-restart {
+	grid-area: shuffle;
+
+	width: 125px;
+	height: 40px;
+
+	border: none;
+	border-radius: 30px;
+
+	background-color: #357e31;
+	color: white;
+	font-size: 18px;
+	font-family: inherit;
+
+	cursor: pointer;
+
+	&:active {
+		background-color: #538750;
+	}
+}

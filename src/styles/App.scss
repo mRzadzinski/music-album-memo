@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 
 .App,
@@ -9,6 +8,9 @@
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
+
   color: white;
   font-family: 'Bakbak One', cursive;
 }
@@ -17,27 +19,29 @@
   display: flex;
   justify-content: space-between;
 
-  margin: 0 20px 0 20px;
+  height: 100px;
+  margin: 0 20px 0 30px;
 }
 
 .title {
-  padding-top: 30px;
-  font-size: 70px;
+  font-size: 50px;
   font-family: 'Monoton', cursive;
 }
 
 .all-albums {
   padding-bottom: 20px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .title, .all-albums {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+
+  height: 140px;
 
   cursor: pointer;
 }
 
 .empty {
-  width: 180px;
+  width: 110px;
 }
