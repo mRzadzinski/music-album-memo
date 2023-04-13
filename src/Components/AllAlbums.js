@@ -9,8 +9,8 @@ const AllAlbums = (props) => {
 
 	return (
 		<div className='AllAlbums display'>
-			<div className='albums-game-container'>
-				<div className='albums-game'>
+			<div className='albums-game-container' >
+				<div className='albums-game' id='display-all'>
 					{albums.map((album, index) => (
 						<Card
 							cardsDisabled={cardsDisabled}

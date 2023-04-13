@@ -3,7 +3,7 @@ import albums from '../albums-data';
 import Card from './Card';
 import React, { useEffect, useRef, useState } from 'react';
 
-const Gameplay = (props) => {
+const Gameplay = () => {
 	const [score, setScore] = useState(0);
 	const [bestScore, setBestScore] = useState(0);
 	const [albumsDeck, setAlbumsDeck] = useState(getAlbumsDeck());
@@ -19,16 +19,15 @@ const Gameplay = (props) => {
 			setBestScore(score);
 		}
 
-		if (score === 12) {
+		if (score === 10) {
 			scoreContainer.current.classList.add('finished');
 			setCardsDisabled(true);
 		}
 	}, [score]);
 
-
 	function getAlbumsDeck() {
 		const tempDeck = [];
-		while (tempDeck.length < 12) {
+		while (tempDeck.length < 10) {
 			let album = albums[Math.floor(Math.random() * albums.length)];
 
 			if (!tempDeck.includes(album)) {
@@ -50,7 +49,7 @@ const Gameplay = (props) => {
 	// jimi lana social innerspeaker bamba doors seat psychic live atLast otta on anthology
 
 	function resetScore() {
-		if (bestScore === 12) {
+		if (bestScore === 10) {
 			setBestScore(0);
 		}
 		setScore(0);
@@ -92,9 +91,9 @@ const Gameplay = (props) => {
 						</div>
 						info
 					</span>
-					&nbsp;Score {score}/12
+					&nbsp;Score {score}/10
 				</div>
-				<div className='best-score'>Best Score: {bestScore}/12</div>
+				<div className='best-score'>Best Score: {bestScore}/10</div>
 			</div>
 
 			<div className='albums-game-container'>
