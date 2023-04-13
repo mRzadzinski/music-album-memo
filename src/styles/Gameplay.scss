@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 .Gameplay {
 	flex-grow: 1;
 
@@ -70,18 +72,39 @@
 	background-color: #357e31;
 	
 	font-size: 18px;
-	font-weight: 700;
-    font-family: 'DM Sans', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	color: inherit;
 
 	cursor: pointer;
 
 	&:active {
-		background-color: #538750;
+		background-color: #286025;
 	}
 }
 
 #info-icon {
-	font-size: 20px;
+	position: relative;
+	padding-top: 2px;
+
+	font-size: 22px;
 	cursor: pointer;
+}
+
+.instruction {
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	right: 28px;
+	top: -6px;
+
+	width: 240px;
+	height: 40px;
+
+	border-radius: 20px;
+	background-color: #1f1f1f;
+
+	font-size: 16px;
+	font-family: 'DM Sans', sans-serif;
 }

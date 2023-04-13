@@ -12,15 +12,19 @@
 	border-radius: 10px;
 
 	text-align: left;
-    font-family: 'DM Sans', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 
 	background-color: #1f1f1f;
-    color: rgb(188, 188, 188);
+	color: rgb(188, 188, 188);
 
-    cursor: pointer;
-    &:hover {
-        background-color: #272727;
-    }
+	cursor: pointer;
+	&:hover {
+		background-color: #272727;
+	}
+}
+
+.Card.default-cursor {
+	cursor: default;
 }
 
 .album-cover {
@@ -34,27 +38,24 @@
 
 .album-title,
 .artist {
-    padding: 0 16px 0 16px;
+	padding: 0 16px 0 16px;
 }
 
 .album-title {
+	height: 50px;
+	padding-top: 13px;
 
-    
-    height: 50px;
-    padding-top: 13px;
-
-    font-size: 17px;
+	font-size: 16.5px;
 }
 
 .artist {
-    display: flex;
-    justify-content: baseline;
-    align-items: baseline;
+	display: flex;
+	justify-content: baseline;
+	align-items: baseline;
 
-    height: 35px;
+	height: 35px;
 
-    vertical-align: bottom;
-    font-size: 14px;
-    color: rgb(125, 125, 125);
+	vertical-align: bottom;
+	font-size: 14px;
+	color: rgb(125, 125, 125);
 }
-

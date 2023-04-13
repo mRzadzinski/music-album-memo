@@ -1,17 +1,19 @@
 import '../styles/AllAlbums.scss';
 import albums from '../albums-data';
 import Card from './Card';
+import React, { useState } from 'react';
 
 const AllAlbums = (props) => {
-	return (
+	const [defaultCursor, setDefaultCursor] = useState(true);
 
-		<div className='AllAlbums'>
-			<div className='score'></div>
-			<div className='albums-game-container display'>
+	return (
+		<div className='AllAlbums display'>
+			<div className='albums-game-container'>
 				<div className='albums-game'>
 					{albums.map((album, index) => (
 						<Card
-							key={index}
+							defaultCursor={defaultCursor}
+							key={albums[index].id}
 							img={albums[index].img}
 							title={albums[index].title}
 							artist={albums[index].artist}
