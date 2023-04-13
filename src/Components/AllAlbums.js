@@ -4,7 +4,8 @@ import Card from './Card';
 import React, { useState } from 'react';
 
 const AllAlbums = (props) => {
-	const [defaultCursor, setDefaultCursor] = useState(true);
+	// const [defaultCursor, setDefaultCursor] = useState(' default-cursor');
+	const [cardsDisabled, setCardsDisabled] = useState(true);
 
 	return (
 		<div className='AllAlbums display'>
@@ -12,7 +13,7 @@ const AllAlbums = (props) => {
 				<div className='albums-game'>
 					{albums.map((album, index) => (
 						<Card
-							defaultCursor={defaultCursor}
+							cardDisabled={cardsDisabled}
 							key={albums[index].id}
 							img={albums[index].img}
 							title={albums[index].title}
