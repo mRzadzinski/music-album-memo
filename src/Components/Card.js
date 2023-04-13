@@ -23,6 +23,8 @@ const Card = (props) => {
 		}
 	});
 
+    console.log(cardsDisabled)
+
 	function noteCardClick() {
 		albums.forEach((album) => {
 			if (album.title === title) {
@@ -42,9 +44,8 @@ const Card = (props) => {
 			ref={card}
 			onClick={() => {
 				if (cardsDisabled) {
-                    card.current.style.cursor = 'default';
+                    return
 				} else {
-                    card.current.style.cursor = 'pointer';
 					noteCardClick();
 					shuffleDeck();
 				}

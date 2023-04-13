@@ -23,9 +23,16 @@
 	align-items: center;
 }
 
+.score-container {
+	color: rgb(183, 183, 183);
+}
+
+.score-container.finished {
+	color: #357e31;
+}
+
 .score,
 .best-score {
-	color: rgb(183, 183, 183);
 }
 
 .score {
@@ -33,16 +40,16 @@
 	height: 50px;
 	padding-right: 28px;
 	font-size: 27px;
+
+	color: inherit;
 }
 
 .best-score {
 	height: 25px;
 	margin-bottom: 30px;
 	font-size: 19px;
-}
 
-.score.finished, .best-score.finished {
-	color: #357e31;
+	color: inherit;
 }
 
 .albums-game-container {

@@ -20,7 +20,7 @@ const Gameplay = (props) => {
 		}
 
 		if (score === 12) {
-			scoreContainer.current.classList.add = 'finished';
+			scoreContainer.current.classList.add('finished');
 			setCardsDisabled(true);
 		}
 	}, [score]);
@@ -47,6 +47,8 @@ const Gameplay = (props) => {
 		setAlbumsDeck(tempDeck);
 	}
 
+	// jimi lana social innerspeaker bamba doors seat psychic live atLast otta on anthology
+
 	function resetScore() {
 		if (bestScore === 12) {
 			setBestScore(0);
@@ -59,7 +61,8 @@ const Gameplay = (props) => {
 		setAlbumsDeck(getAlbumsDeck());
 		resetScore();
 		setBestScore(0);
-		scoreContainer.current.classList.remove = 'finished';
+		setCardsDisabled(false);
+		scoreContainer.current.classList.remove('finished');
 	}
 
 	function incrementScore() {
@@ -101,7 +104,7 @@ const Gameplay = (props) => {
 							shuffleDeck={shuffleDeck}
 							resetScore={resetScore}
 							incrementScore={incrementScore}
-							cardDisabled={cardsDisabled}
+							cardsDisabled={cardsDisabled}
 							key={album.id}
 							img={album.img}
 							title={album.title}

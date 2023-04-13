@@ -13,7 +13,7 @@ const AllAlbums = (props) => {
 				<div className='albums-game'>
 					{albums.map((album, index) => (
 						<Card
-							cardDisabled={cardsDisabled}
+							cardsDisabled={cardsDisabled}
 							key={albums[index].id}
 							img={albums[index].img}
 							title={albums[index].title}
