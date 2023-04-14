@@ -10,7 +10,7 @@ Memory card game displaying some of my favorite music albums.
 * Click each card only once to win
 * Build random decks from pool of 30 albums
 * See your current score and best score
-* Check all albums at once in the separate tab
+* Check all albums at once in separate tab
 
 ## Technologies
 * React
