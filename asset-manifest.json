@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/music-album-memo/static/css/main.153373d3.css",
-    "main.js": "/music-album-memo/static/js/main.bfd5bb8e.js",
+    "main.js": "/music-album-memo/static/js/main.d66af178.js",
     "static/media/jazz-impressions.jpg": "/music-album-memo/static/media/jazz-impressions.be275673366a3b849080.jpg",
     "static/media/norman-fucking-rockwell.jpeg": "/music-album-memo/static/media/norman-fucking-rockwell.b8a590d646d34d78d0cb.jpeg",
     "static/media/on.jpeg": "/music-album-memo/static/media/on.0f62e83c14ace5704aad.jpeg",
@@ -34,10 +34,10 @@
     "static/media/aventine.jpeg": "/music-album-memo/static/media/aventine.e2942443e8841244a34b.jpeg",
     "index.html": "/music-album-memo/index.html",
     "main.153373d3.css.map": "/music-album-memo/static/css/main.153373d3.css.map",
-    "main.bfd5bb8e.js.map": "/music-album-memo/static/js/main.bfd5bb8e.js.map"
+    "main.d66af178.js.map": "/music-album-memo/static/js/main.d66af178.js.map"
   },
   "entrypoints": [
     "static/css/main.153373d3.css",
-    "static/js/main.bfd5bb8e.js"
+    "static/js/main.d66af178.js"
   ]
 }
