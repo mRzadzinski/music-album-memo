@@ -6,7 +6,7 @@ import './styles/App.scss';
 function App() {
 	const [status, setStatus] = useState('game');
 
-	function showAllAbums() {
+	function showAllAlbums() {
 		setStatus('display');
 	}
 
@@ -17,7 +17,7 @@ function App() {
 	return (
 		<div className='App'>
 			<div className='header'>
-				<div className='all-albums' onClick={showAllAbums}>
+				<div className='all-albums' onClick={showAllAlbums}>
 					All Albums
 				</div>
 				<div className='title' onClick={gameMode}>

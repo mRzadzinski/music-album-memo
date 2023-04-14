@@ -12,17 +12,18 @@ const Gameplay = () => {
 	const instruction = useRef(null);
 	const scoreContainer = useRef(null);
 
-	// Update best score
-	// Finish game
 	useEffect(() => {
+		// Update best score
 		if (score > bestScore) {
 			setBestScore(score);
 		}
 
+		// Finish game
 		if (score === 10) {
 			scoreContainer.current.classList.add('finished');
 			setCardsDisabled(true);
 		}
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [score]);
 
 	function getAlbumsDeck() {
@@ -46,7 +47,9 @@ const Gameplay = () => {
 		setAlbumsDeck(tempDeck);
 	}
 
-	// jimi lana social innerspeaker bamba doors seat psychic live atLast otta on anthology
+	function incrementScore() {
+		setScore(score + 1);
+	}
 
 	function resetScore() {
 		if (bestScore === 10) {
@@ -62,10 +65,6 @@ const Gameplay = () => {
 		setBestScore(0);
 		setCardsDisabled(false);
 		scoreContainer.current.classList.remove('finished');
-	}
-
-	function incrementScore() {
-		setScore(score + 1);
 	}
 
 	function showInstruction() {
@@ -86,10 +85,10 @@ const Gameplay = () => {
 						onMouseEnter={showInstruction}
 						onMouseLeave={hideInstruction}
 					>
+						info
 						<div className='instruction' ref={instruction}>
 							Click each card only once.
 						</div>
-						info
 					</span>
 					&nbsp;Score {score}/10
 				</div>
@@ -98,7 +97,7 @@ const Gameplay = () => {
 
 			<div className='albums-game-container'>
 				<div className='albums-game'>
-					{albumsDeck.map((album, index) => (
+					{albumsDeck.map((album) => (
 						<Card
 							shuffleDeck={shuffleDeck}
 							resetScore={resetScore}

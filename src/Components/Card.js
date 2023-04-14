@@ -1,6 +1,6 @@
 import '../styles/Card.scss';
 import albums from '../albums-data';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const Card = (props) => {
 	const {
@@ -23,8 +23,6 @@ const Card = (props) => {
 		}
 	});
 
-    console.log(cardsDisabled)
-
 	function noteCardClick() {
 		albums.forEach((album) => {
 			if (album.title === title) {
@@ -44,7 +42,7 @@ const Card = (props) => {
 			ref={card}
 			onClick={() => {
 				if (cardsDisabled) {
-                    return
+					return;
 				} else {
 					noteCardClick();
 					shuffleDeck();
