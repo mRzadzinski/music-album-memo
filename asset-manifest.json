@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/music-album-memo/static/css/main.153373d3.css",
+    "main.js": "/music-album-memo/static/js/main.bfd5bb8e.js",
+    "static/media/jazz-impressions.jpg": "/music-album-memo/static/media/jazz-impressions.be275673366a3b849080.jpg",
+    "static/media/norman-fucking-rockwell.jpeg": "/music-album-memo/static/media/norman-fucking-rockwell.b8a590d646d34d78d0cb.jpeg",
+    "static/media/on.jpeg": "/music-album-memo/static/media/on.0f62e83c14ace5704aad.jpeg",
+    "static/media/darkside-live.jpeg": "/music-album-memo/static/media/darkside-live.d3b1dd7a44633aa9ac09.jpeg",
+    "static/media/electric-ladyland.jpeg": "/music-album-memo/static/media/electric-ladyland.be1792ea183e558b5749.jpeg",
+    "static/media/time-out.jpeg": "/music-album-memo/static/media/time-out.8a2f0846c1348f6f1858.jpeg",
+    "static/media/road-to-knowhere.jpeg": "/music-album-memo/static/media/road-to-knowhere.f80c1613bd850978211a.jpeg",
+    "static/media/if-you wait.jpg": "/music-album-memo/static/media/if-you wait.8ece3c02597d95416462.jpg",
+    "static/media/engravings.jpeg": "/music-album-memo/static/media/engravings.ab87ddef521984edb2c2.jpeg",
+    "static/media/jazz-pa-svenska.jpeg": "/music-album-memo/static/media/jazz-pa-svenska.430ca9184485a6048906.jpeg",
+    "static/media/deru-1979.jpeg": "/music-album-memo/static/media/deru-1979.09120f077f7d2b4e9f7d.jpeg",
+    "static/media/psycho-tropical.jpg": "/music-album-memo/static/media/psycho-tropical.b9d2e740734299027145.jpg",
+    "static/media/live-in-maui.jpg": "/music-album-memo/static/media/live-in-maui.d39f6ed6172363c4dcba.jpg",
+    "static/media/anyway-the-wind-blows.jpeg": "/music-album-memo/static/media/anyway-the-wind-blows.5f8c4ecbb5fbeff57f37.jpeg",
+    "static/media/inner-speaker.jpeg": "/music-album-memo/static/media/inner-speaker.1be6e2bba9d621b9f3c7.jpeg",
+    "static/media/pirates-choice.jpg": "/music-album-memo/static/media/pirates-choice.49db9b9c4414f3517011.jpg",
+    "static/media/bamba.jpeg": "/music-album-memo/static/media/bamba.2acc4640a15e2abf2aef.jpeg",
+    "static/media/what-id-say.jpg": "/music-album-memo/static/media/what-id-say.9249f1a64d0ae0fca09e.jpg",
+    "static/media/a-seat-at-the-table.jpeg": "/music-album-memo/static/media/a-seat-at-the-table.28ae12c8698660073497.jpeg",
+    "static/media/band-of-gypsys.jpeg": "/music-album-memo/static/media/band-of-gypsys.ccce56492eaffae0556f.jpeg",
+    "static/media/jelinek.jpeg": "/music-album-memo/static/media/jelinek.749c817138bae10c932b.jpeg",
+    "static/media/dire-straits.jpeg": "/music-album-memo/static/media/dire-straits.1dfbdb376ea12c78d8c4.jpeg",
+    "static/media/the-doors.jpg": "/music-album-memo/static/media/the-doors.ce6865a84e10ee2a989c.jpg",
+    "static/media/at-last.jpeg": "/music-album-memo/static/media/at-last.977d2a372f1b1809467a.jpeg",
+    "static/media/hidden-sky.jpeg": "/music-album-memo/static/media/hidden-sky.5dbdbd6f6d0024745ac1.jpeg",
+    "static/media/solstafir-otta.jpeg": "/music-album-memo/static/media/solstafir-otta.d7706d60490c47333c11.jpeg",
+    "static/media/buena-vista.jpeg": "/music-album-memo/static/media/buena-vista.93a25370edb3dcde2bfa.jpeg",
+    "static/media/sputnik-korolev.jpeg": "/music-album-memo/static/media/sputnik-korolev.432d43b99486b9d0a0ab.jpeg",
+    "static/media/justice.jpg": "/music-album-memo/static/media/justice.36f31895ab86562783aa.jpg",
+    "static/media/aventine.jpeg": "/music-album-memo/static/media/aventine.e2942443e8841244a34b.jpeg",
+    "index.html": "/music-album-memo/index.html",
+    "main.153373d3.css.map": "/music-album-memo/static/css/main.153373d3.css.map",
+    "main.bfd5bb8e.js.map": "/music-album-memo/static/js/main.bfd5bb8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.153373d3.css",
+    "static/js/main.bfd5bb8e.js"
+  ]
+}
