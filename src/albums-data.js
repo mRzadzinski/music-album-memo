@@ -7,7 +7,7 @@ function importAllImages(obj) {
 }
 
 const images = importAllImages(
-	require.context('./img/', false, /\.(png|jpe?g)$/)
+	require.context('./img/albums/', false, /\.(png|jpe?g)$/)
 );
 
 const albums = [
