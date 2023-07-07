@@ -14,12 +14,21 @@ function App() {
 		setStatus('game');
 	}
 
+	const linkToAllAlbums = (
+		<div className='all-albums' onClick={showAllAlbums}>
+			All Albums
+		</div>
+	);
+	const linkToGame = (
+		<div className='all-albums' onClick={gameMode}>
+			Play game
+		</div>
+	);
+
 	return (
 		<div className='App'>
 			<div className='header'>
-				<div className='all-albums' onClick={showAllAlbums}>
-					All Albums
-				</div>
+				{status === 'game' ? linkToAllAlbums : linkToGame}
 				<div className='title' onClick={gameMode}>
 					Music &nbsp; Album &nbsp; Memo
 				</div>
